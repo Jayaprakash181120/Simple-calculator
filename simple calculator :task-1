@@ -1,0 +1,27 @@
+a=int(input('enter the value 1 :'))
+b=int(input('enter the value 2 :'))
+choose=input('choose the option +,-,*,/   :') 
+def add(x,y):
+    c=x+y
+    print('addition',c)
+def sub(x,y):
+    c=x-y
+    print('subraction',c)
+def mul(x,y):
+    c=x*y
+    print('multiplication',c)
+def div(x,y):
+    c=x/y
+    print('division',c)
+if choose == '+':  
+    add(a,b)
+elif choose =='-':
+    sub(a,b)
+elif choose =='*':
+    mul(a,b)
+elif choose =='/':
+    div(a,b)
+else:
+    print('enter the valid choice symbol')
+
+
